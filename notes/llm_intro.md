@@ -129,4 +129,57 @@ A Large Language Model is an AI system trained to predict the next token in a se
 
 Unlike a traditional computer program that follows explicitly written rules, an LLM learns statistical patterns from enormous datasets during training.
 
-When we chat with an LLM, we are performing inference—the model uses what it learned during training to generate a response.
+When we chat with an LLM, we are performing inference—the model uses what it learned during training to generate a response.s
+
+
+
+
+## Things I Understand Better Today
+
+### LLMs predict the next token
+
+An LLM does not "know" answers like a human.
+
+Instead, it predicts the most likely next token based on everything that came before.
+
+This simple objective leads to surprisingly intelligent behavior.
+
+---
+
+### Why LLMs seem intelligent
+
+During training, the model reads enormous amounts of text.
+
+It learns grammar, facts, reasoning patterns, programming, and writing styles by predicting the next token billions of times.
+
+---
+
+### Why prompt wording matters
+
+The model only sees the prompt you provide.
+
+A clearer prompt usually produces a better answer.
+
+This is why prompt engineering is important.
+
+---
+
+### LLMs are probabilistic
+
+The model predicts probabilities for many possible next tokens.
+
+Temperature controls how random those choices become.
+
+Lower temperature → more consistent
+
+Higher temperature → more creative
+
+---
+
+### Context Window
+
+An LLM can only "remember" a limited amount of recent text at one time.
+
+This temporary memory is called the context window.
+
+Long conversations eventually exceed this limit.
